@@ -14,9 +14,11 @@ class TarBy extends StatelessWidget {
       child: Container(
         height: 60,
         decoration: ConcaveDecoration(
-            colors: const [
-              Color.fromRGBO(216, 213, 208, 1),
-              Colors.white
+            colors:  [
+              Colors.black,
+              Colors.grey.shade800
+              // Color.fromRGBO(216, 213, 208, 1),
+              // Colors.white
             ],
             shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(10)),
@@ -24,23 +26,29 @@ class TarBy extends StatelessWidget {
         child: Padding(
           padding: const EdgeInsets.all(8.0),
           child: TabBar(
-              labelColor: Colors.black54,
+              labelColor: Colors.white54,
+              // Colors.black54,
               labelStyle:
                   GoogleFonts.nunitoSans(fontWeight: FontWeight.w600),
               indicator: BoxDecoration(
-                  color: Colors.grey[300],
+                  color:Colors.grey[900],
+                  //  Colors.grey[300],
                   borderRadius: BorderRadius.circular(5),
                   boxShadow: [
                     BoxShadow(
-                        color: Colors.grey[500]!,
+                        color:Colors.black,
+                        //  Colors.grey[500]!,
                         offset: const Offset(
                           4,
                           4,
                         ),
                         blurRadius: 15,
-                        spreadRadius: 1),
-                    const BoxShadow(
-                        color: Colors.white,
+                        // spreadRadius: 1
+                        spreadRadius: 5
+                        ),
+                     BoxShadow(
+                        color: Colors.grey.shade800,
+                        // Colors.white,
                         offset: Offset(
                           -4,
                           -4,

@@ -30,7 +30,7 @@ class _SokoHomeState extends State<SokoHome> {
     Colors.red[500]!,
     const Color(0xFFC01919),
   ];
-  String selected = 'first';
+
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
@@ -41,25 +41,30 @@ class _SokoHomeState extends State<SokoHome> {
           appBar: AppBar(
             leading: const Icon(
               Icons.more_vert,
-              color: Colors.black,
+              color: Colors.white54,
+              // color: Colors.black,
             ),
             title: Center(
                 child: Text('Performance',
                     style: GoogleFonts.varelaRound(
-                        color: Colors.black, fontWeight: FontWeight.w800))),
+                      color: Colors.white,
+                        // color: Colors.black, 
+                        fontWeight: FontWeight.w800))),
             backgroundColor: Colors.transparent,
             elevation: 0,
             actions: [
               const Icon(
                 FontAwesomeIcons.bell,
-                color: Colors.black,
+                color: Colors.white54,
+                // color: Colors.black,
               ),
               SizedBox(
                 width: size.width * 0.02,
               ),
               const Icon(
                 Icons.person_add,
-                color: Colors.black,
+                color: Colors.white54,
+                // color: Colors.black,
               ),
               SizedBox(
                 width: size.width * 0.02,
@@ -72,7 +77,9 @@ class _SokoHomeState extends State<SokoHome> {
                 Center(
                   child: Text('Let\'s see how we\'ve been doing',
                       style: GoogleFonts.varelaRound(
-                          color: Colors.black, fontWeight: FontWeight.w600)),
+                        color: Colors.white,
+                          // color: Colors.black,
+                           fontWeight: FontWeight.w600)),
                 ),
                 SizedBox(
                   height: size.height * 0.03,
@@ -87,6 +94,7 @@ class _SokoHomeState extends State<SokoHome> {
                 ),
                 Text('Overview',
                     style: GoogleFonts.prompt(
+                      color: Colors.white,
                         fontSize: 25, fontWeight: FontWeight.w600)),
                 PerfScroll(
                     size: size,
@@ -133,19 +141,24 @@ class _SokoHomeState extends State<SokoHome> {
                     ],
                   ),
                   decoration: BoxDecoration(
-                      color: Colors.grey[300],
+                      color:Colors.grey[900],
+                      //  Colors.grey[300],
                       borderRadius: BorderRadius.circular(10),
                       boxShadow: [
                         BoxShadow(
-                            color: Colors.grey[500]!,
+                            color: Colors.black,
+                            // Colors.grey[500]!,
                             offset: const Offset(
                               4,
                               4,
                             ),
                             blurRadius: 15,
-                            spreadRadius: 1),
-                        const BoxShadow(
-                            color: Colors.white,
+                            // spreadRadius: 1
+                            spreadRadius: 5
+                            ),
+                         BoxShadow(
+                            color:Colors.grey.shade800,
+                            //  Colors.white,
                             offset: Offset(
                               -4,
                               -4,

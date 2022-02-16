@@ -20,12 +20,16 @@ class PaeChat extends StatelessWidget {
             'Profit/loss by week',
             style: GoogleFonts.prompt(
                 fontWeight: FontWeight.w800,
-                color: Colors.black54),
+                // color: Colors.black54
+                color: Colors.white54
+                ),
           ),
           Text(
             'profit growth margin of 25%',
             style: GoogleFonts.nunitoSans(
-                color: Colors.black54, fontSize: 12),
+                // color: Colors.black54,
+                color: Colors.white54,
+                 fontSize: 12),
           ),
           SizedBox(
             height: size.height * 0.015,
@@ -48,14 +52,18 @@ class PaeChat extends StatelessWidget {
                   Text('Sales& Orders',
                       style: GoogleFonts.nunitoSans(
                           fontWeight: FontWeight.w800,
-                          color: Colors.black54)),
+                          // color: Colors.black54
+                          color: Colors.white54
+                          )),
                   Row(
                     children: [
                       Text(
                         '50%',
                         style: GoogleFonts.openSans(
                             fontWeight: FontWeight.w800,
-                            color: Colors.black54),
+                            // color: Colors.black54
+                            color: Colors.white54
+                            ),
                       ),
                       SizedBox(
                         width: size.width * 0.02,
@@ -64,7 +72,9 @@ class PaeChat extends StatelessWidget {
                         '(#500,000)',
                         style: TextStyle(
                             fontSize: 12,
-                            color: Colors.black54),
+                            // color: Colors.black54
+                            color: Colors.white54
+                            ),
                       )
                     ],
                   )
@@ -93,14 +103,18 @@ class PaeChat extends StatelessWidget {
                   Text('Expenses',
                       style: GoogleFonts.nunitoSans(
                           fontWeight: FontWeight.w800,
-                          color: Colors.black54)),
+                          // color: Colors.black54
+                          color: Colors.white54
+                          )),
                   Row(
                     children: [
                       Text(
                         '25%',
                         style: GoogleFonts.openSans(
                             fontWeight: FontWeight.w800,
-                            color: Colors.black54),
+                            // color: Colors.black54
+                            color: Colors.white54
+                            ),
                       ),
                       SizedBox(
                         width: size.width * 0.02,
@@ -109,7 +123,9 @@ class PaeChat extends StatelessWidget {
                         '(#500,000)',
                         style: TextStyle(
                             fontSize: 12,
-                            color: Colors.black54),
+                            // color: Colors.black54
+                            color: Colors.white54
+                            ),
                       )
                     ],
                   )
@@ -138,14 +154,18 @@ class PaeChat extends StatelessWidget {
                   Text('Profit',
                       style: GoogleFonts.nunitoSans(
                           fontWeight: FontWeight.w800,
-                          color: Colors.black54)),
+                          // color: Colors.black54
+                          color: Colors.white54
+                          )),
                   Row(
                     children: [
                       Text(
                         '25%',
                         style: GoogleFonts.openSans(
                             fontWeight: FontWeight.w800,
-                            color: Colors.black54),
+                            // color: Colors.black54
+                            color:  Colors.white54
+                            ),
                       ),
                       SizedBox(
                         width: size.width * 0.02,
@@ -154,7 +174,9 @@ class PaeChat extends StatelessWidget {
                         '(#500,000)',
                         style: TextStyle(
                             fontSize: 12,
-                            color: Colors.black54),
+                            // color: Colors.black54
+                            color: Colors.white54
+                            ),
                       )
                     ],
                   )

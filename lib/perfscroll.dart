@@ -1,6 +1,7 @@
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+
 class PerfScroll extends StatelessWidget {
   const PerfScroll({
     Key? key,
@@ -31,19 +32,25 @@ class PerfScroll extends StatelessWidget {
                       children: [
                         Text('21',
                             style: GoogleFonts.nunitoSans(
-                                fontWeight: FontWeight.w700)),
+                                fontWeight: FontWeight.w700,
+                                color: Colors.white)),
                         Text('New customers',
                             style: GoogleFonts.nunitoSans(
-                                fontWeight: FontWeight.w700)),
+                                fontWeight: FontWeight.w700,
+                                color: Colors.white)),
                         Row(
                           children: [
-                            const Text('Total spend:'),
+                            const Text(
+                              'Total spend:',
+                              style: TextStyle(color: Colors.white),
+                            ),
                             SizedBox(
                               width: size.width * 0.008,
                             ),
                             Text('140,000',
                                 style: GoogleFonts.openSans(
-                                    fontWeight: FontWeight.w700))
+                                    fontWeight: FontWeight.w700,
+                                    color: Colors.white))
                           ],
                         ),
                         const Spacer(),
@@ -87,10 +94,9 @@ class PerfScroll extends StatelessWidget {
                                 belowBarData: BarAreaData(
                                     show: true,
                                     colors: gradientColors
-                                        .map((color) =>
-                                            color.withOpacity(0.3))
+                                        .map((color) => color.withOpacity(0.3))
                                         .toList()),
-                                spots:const [
+                                spots: const [
                                   FlSpot(0, 3),
                                   FlSpot(2.6, 2),
                                   FlSpot(4.9, 5),
@@ -106,19 +112,24 @@ class PerfScroll extends StatelessWidget {
                 height: size.height * 0.13,
                 width: size.width * 0.7,
                 decoration: BoxDecoration(
-                    color: Colors.grey[300],
+                    color: Colors.grey[900],
+                    //  Colors.grey[300],
                     borderRadius: BorderRadius.circular(10),
                     boxShadow: [
                       BoxShadow(
-                          color: Colors.grey[500]!,
-                          offset: const Offset(
-                            4,
-                            4,
-                          ),
-                          blurRadius: 15,
-                          spreadRadius: 1),
-                      const BoxShadow(
-                          color: Colors.white,
+                        color: Colors.black,
+                        // Colors.grey[500]!,
+                        offset: const Offset(
+                          4,
+                          4,
+                        ),
+                        blurRadius: 15,
+                        spreadRadius: 5,
+                        // spreadRadius: 1
+                      ),
+                      BoxShadow(
+                          color: Colors.grey.shade800,
+                          //  Colors.white,
                           offset: Offset(
                             -4,
                             -4,
@@ -139,19 +150,24 @@ class PerfScroll extends StatelessWidget {
                       children: [
                         Text('55',
                             style: GoogleFonts.nunitoSans(
-                                fontWeight: FontWeight.w700)),
+                                fontWeight: FontWeight.w700,
+                                color: Colors.white)),
                         Text('Old customers',
                             style: GoogleFonts.nunitoSans(
-                                fontWeight: FontWeight.w700)),
+                                fontWeight: FontWeight.w700,
+                                color: Colors.white)),
                         Row(
                           children: [
-                            const Text('Total spend:'),
+                            const Text(
+                              'Total spend:',
+                              style: TextStyle(color: Colors.white),
+                            ),
                             SizedBox(
                               width: size.width * 0.008,
                             ),
                             Text('122,000',
                                 style: GoogleFonts.openSans(
-                                    fontWeight: FontWeight.w700))
+                                    fontWeight: FontWeight.w700,color: Colors.white))
                           ],
                         ),
                         const Spacer(),
@@ -195,10 +211,9 @@ class PerfScroll extends StatelessWidget {
                                 belowBarData: BarAreaData(
                                     show: true,
                                     colors: gradientTwoColors
-                                        .map((color) =>
-                                            color.withOpacity(0.3))
+                                        .map((color) => color.withOpacity(0.3))
                                         .toList()),
-                                spots:const [
+                                spots: const [
                                   FlSpot(0, 5),
                                   FlSpot(2.6, 4.2),
                                   FlSpot(4.9, 4.6),
@@ -214,19 +229,24 @@ class PerfScroll extends StatelessWidget {
                 height: size.height * 0.13,
                 width: size.width * 0.7,
                 decoration: BoxDecoration(
-                    color: Colors.grey[300],
+                    color: Colors.grey[900],
+                    // Colors.grey[300],
                     borderRadius: BorderRadius.circular(10),
                     boxShadow: [
                       BoxShadow(
-                          color: Colors.grey[500]!,
+                          color: Colors.black,
+                          // Colors.grey[500]!,
                           offset: const Offset(
                             4,
                             4,
                           ),
                           blurRadius: 15,
-                          spreadRadius: 1),
-                      const BoxShadow(
-                          color: Colors.white,
+                          // spreadRadius: 1
+                          spreadRadius: 5
+                          ),
+                       BoxShadow(
+                          color:Colors.grey.shade800,
+                          //  Colors.white,
                           offset: Offset(
                             -4,
                             -4,
@@ -236,7 +256,6 @@ class PerfScroll extends StatelessWidget {
                     ]),
               ),
             ),
-           
           ],
         ));
   }

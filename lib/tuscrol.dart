@@ -25,7 +25,9 @@ class TuScroll extends StatelessWidget {
                   Text('Total sales',
                       style: GoogleFonts.prompt(
                           fontWeight: FontWeight.w700,
-                          color: Colors.black54)),
+                          // color: Colors.black54
+                          color: Colors.white54
+                          )),
                   Text('513',
                       style: GoogleFonts.varelaRound(
                           fontSize: 30,
@@ -33,7 +35,9 @@ class TuScroll extends StatelessWidget {
                           fontWeight: FontWeight.w700)),
                   const Text(
                     '#6,000000',
-                    style: TextStyle(color: Colors.black54),
+                    style: TextStyle(color: Colors.white54
+                    // Colors.black54
+                    ),
                   ),
                   const Spacer(),
                   Row(
@@ -53,19 +57,24 @@ class TuScroll extends StatelessWidget {
               height: size.height * 0.15,
               width: size.width * 0.25,
               decoration: BoxDecoration(
-                  color: Colors.grey[300],
+                  color: Colors.grey[900],
+                  // Colors.grey[300],
                   borderRadius: BorderRadius.circular(10),
                   boxShadow: [
                     BoxShadow(
-                        color: Colors.grey[500]!,
+                        color: Colors.black,
+                        // Colors.grey[500]!,
                         offset: const Offset(
                           4,
                           4,
                         ),
                         blurRadius: 15,
-                        spreadRadius: 1),
-                    const BoxShadow(
-                        color: Colors.white,
+                        // spreadRadius: 1
+                        spreadRadius: 5
+                        ),
+                     BoxShadow(
+                        color:Colors.grey.shade800,
+                        //  Colors.white,
                         offset: Offset(
                           -4,
                           -4,
@@ -84,7 +93,9 @@ class TuScroll extends StatelessWidget {
                   Text('Total orders',
                       style: GoogleFonts.prompt(
                           fontWeight: FontWeight.w700,
-                          color: Colors.black54)),
+                          // color: Colors.black54
+                          color: Colors.white54
+                          )),
                   Text('31',
                       style: GoogleFonts.varelaRound(
                           fontSize: 30,
@@ -92,7 +103,10 @@ class TuScroll extends StatelessWidget {
                           fontWeight: FontWeight.w700)),
                   const Text(
                     '#500,000',
-                    style: TextStyle(color: Colors.black54),
+                    style: TextStyle(
+                      // color: Colors.black54
+                      color: Colors.white54
+                      ),
                   ),
                   const Spacer(),
                   Row(
@@ -112,19 +126,24 @@ class TuScroll extends StatelessWidget {
               height: size.height * 0.15,
               width: size.width * 0.25,
               decoration: BoxDecoration(
-                  color: Colors.grey[300],
+                  color: Colors.grey[900],
+                  // Colors.grey[300],
                   borderRadius: BorderRadius.circular(10),
                   boxShadow: [
                     BoxShadow(
-                        color: Colors.grey[500]!,
+                        color: Colors.black,
+                        // Colors.grey[500]!,
                         offset: const Offset(
                           4,
                           4,
                         ),
                         blurRadius: 15,
-                        spreadRadius: 1),
-                    const BoxShadow(
-                        color: Colors.white,
+                        // spreadRadius: 1
+                        spreadRadius: 5
+                        ),
+                     BoxShadow(
+                        color: Colors.grey.shade800,
+                        // Colors.white,
                         offset: Offset(
                           -4,
                           -4,
@@ -143,7 +162,9 @@ class TuScroll extends StatelessWidget {
                   Text('Expenses',
                       style: GoogleFonts.prompt(
                           fontWeight: FontWeight.w700,
-                          color: Colors.black54)),
+                          // color: Colors.black54
+                          color: Colors.white54
+                          )),
                   Text('19',
                       style: GoogleFonts.varelaRound(
                           fontSize: 30,
@@ -151,7 +172,10 @@ class TuScroll extends StatelessWidget {
                           fontWeight: FontWeight.w700)),
                   const Text(
                     '#1,200000',
-                    style: TextStyle(color: Colors.black54),
+                    style: TextStyle(
+                      color: Colors.white54
+                      // color: Colors.black54
+                    ),
                   ),
                   const Spacer(),
                   Row(
@@ -171,19 +195,24 @@ class TuScroll extends StatelessWidget {
               height: size.height * 0.15,
               width: size.width * 0.25,
               decoration: BoxDecoration(
-                  color: Colors.grey[300],
+                  color:Colors.grey[900],
+                  //  Colors.grey[300],
                   borderRadius: BorderRadius.circular(10),
                   boxShadow: [
                     BoxShadow(
-                        color: Colors.grey[500]!,
+                        color: Colors.black,
+                        // Colors.grey[500]!,
                         offset: const Offset(
                           4,
                           4,
                         ),
                         blurRadius: 15,
-                        spreadRadius: 1),
-                    const BoxShadow(
-                        color: Colors.white,
+                        // spreadRadius: 1
+                        spreadRadius: 5
+                        ),
+                     BoxShadow(
+                        color: Colors.grey.shade800,
+                        // Colors.white,
                         offset: Offset(
                           -4,
                           -4,
@@ -202,7 +231,9 @@ class TuScroll extends StatelessWidget {
                   Text('Total Revenue',
                       style: GoogleFonts.prompt(
                           fontWeight: FontWeight.w700,
-                          color: Colors.black54)),
+                          // color: Colors.black54
+                          color: Colors.white54
+                          )),
                   Text('560',
                       style: GoogleFonts.varelaRound(
                           fontSize: 30,
@@ -210,7 +241,10 @@ class TuScroll extends StatelessWidget {
                           fontWeight: FontWeight.w700)),
                   const Text(
                     '#10,000000',
-                    style: TextStyle(color: Colors.black54),
+                    style: TextStyle(
+                      color: Colors.white54
+                      // color: Colors.black54
+                    ),
                   ),
                   const Spacer(),
                   Row(
@@ -230,19 +264,24 @@ class TuScroll extends StatelessWidget {
               height: size.height * 0.15,
               width: size.width * 0.27,
               decoration: BoxDecoration(
-                  color: Colors.grey[300],
+                  color:Colors.grey[900],
+                  //  Colors.grey[300],
                   borderRadius: BorderRadius.circular(10),
                   boxShadow: [
                     BoxShadow(
-                        color: Colors.grey[500]!,
+                        color:Colors.black,
+                        //  Colors.grey[500]!,
                         offset: const Offset(
                           4,
                           4,
                         ),
                         blurRadius: 15,
-                        spreadRadius: 1),
-                    const BoxShadow(
-                        color: Colors.white,
+                        // spreadRadius: 1
+                        spreadRadius: 5
+                        ),
+                     BoxShadow(
+                        color: Colors.grey.shade800,
+                        // Colors.white,
                         offset: Offset(
                           -4,
                           -4,

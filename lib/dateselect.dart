@@ -32,31 +32,41 @@ class _DateSelectState extends State<DateSelect> {
                         height: 60,
                         width: 60,
                         child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Text(
                               'Apr',
-                              style: GoogleFonts.prompt(color: Colors.black54),
+                              style: GoogleFonts.prompt(color: Colors.white54
+                              // Colors.black54
+                              ),
                             ),
                             Text('23',
                                 style:
-                                    GoogleFonts.prompt(color: Colors.black54))
+                                    GoogleFonts.prompt(color:Colors.white54 
+                                    // Colors.black54
+                                    ))
                           ],
                         ),
                         decoration: BoxDecoration(
-                            color: Colors.grey[300],
+                            color:Colors.grey[900],
+                            //  Colors.grey[300],
                             borderRadius: BorderRadius.circular(10),
                             boxShadow: selected == 'first'
                                 ? [
                                     BoxShadow(
-                                        color: Colors.grey[500]!,
+                                        color: Colors.black,
+                                        // Colors.grey[500]!,
                                         offset: const Offset(
                                           4,
                                           4,
                                         ),
                                         blurRadius: 15,
-                                        spreadRadius: 1),
-                                    const BoxShadow(
-                                        color: Colors.white,
+                                      spreadRadius: 5
+                                        // spreadRadius: 1
+                                        ),
+                                     BoxShadow(
+                                        color: Colors.grey.shade800,
+                                        // Colors.white,
                                         offset: Offset(
                                           -4,
                                           -4,
@@ -81,31 +91,41 @@ class _DateSelectState extends State<DateSelect> {
                         height: 60,
                         width: 60,
                         child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Text(
                               'Apr',
-                              style: GoogleFonts.prompt(color: Colors.black54),
+                              style: GoogleFonts.prompt(color:Colors.white54
+                              //  Colors.black54
+                               ),
                             ),
                             Text('24',
                                 style:
-                                    GoogleFonts.prompt(color: Colors.black54))
+                                    GoogleFonts.prompt(color: Colors.white54
+                                    // Colors.black54
+                                    ))
                           ],
                         ),
                         decoration: BoxDecoration(
-                            color: Colors.grey[300],
+                            color:Colors.grey[900],
+                            //  Colors.grey[300],
                             borderRadius: BorderRadius.circular(10),
                             boxShadow: selected == 'second'
                                 ? [
                                     BoxShadow(
-                                        color: Colors.grey[500]!,
+                                        color: Colors.black,
+                                        // Colors.grey[500]!,
                                         offset: const Offset(
                                           4,
                                           4,
                                         ),
                                         blurRadius: 15,
-                                        spreadRadius: 1),
-                                    const BoxShadow(
-                                        color: Colors.white,
+                                        // spreadRadius: 1
+                                        spreadRadius: 5
+                                        ),
+                                     BoxShadow(
+                                        color: Colors.grey.shade800,
+                                        // Colors.white,
                                         offset: Offset(
                                           -4,
                                           -4,
@@ -130,31 +150,42 @@ class _DateSelectState extends State<DateSelect> {
                         height: 60,
                         width: 60,
                         child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Text(
                               'Apr',
-                              style: GoogleFonts.prompt(color: Colors.black54),
+                              style: GoogleFonts.prompt(color: 
+                              // Colors.black54
+                              Colors.white54
+                              ),
                             ),
                             Text('25',
                                 style:
-                                    GoogleFonts.prompt(color: Colors.black54))
+                                    GoogleFonts.prompt(color: Colors.white54
+                                    // Colors.black54
+                                    ))
                           ],
                         ),
                         decoration: BoxDecoration(
-                            color: Colors.grey[300],
+                            color: Colors.grey[900],
+                            // Colors.grey[300],
                             borderRadius: BorderRadius.circular(10),
                             boxShadow: selected == 'third'
                                 ? [
                                     BoxShadow(
-                                        color: Colors.grey[500]!,
+                                        color:Colors.black,
+                                        //  Colors.grey[500]!,
                                         offset: const Offset(
                                           4,
                                           4,
                                         ),
                                         blurRadius: 15,
-                                        spreadRadius: 1),
-                                    const BoxShadow(
-                                        color: Colors.white,
+                                        // spreadRadius: 1
+                                        spreadRadius: 5
+                                        ),
+                                     BoxShadow(
+                                        color: Colors.grey.shade800,
+                                        // Colors.white,
                                         offset: Offset(
                                           -4,
                                           -4,

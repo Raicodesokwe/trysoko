@@ -14,10 +14,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-          scaffoldBackgroundColor: Colors.grey[300],
+          scaffoldBackgroundColor:Colors.grey[900],
+          //  Colors.grey[300],
             visualDensity: VisualDensity.adaptivePlatformDensity,
             appBarTheme: const AppBarTheme(elevation: 0)),
-      home: SokoHome(),
+      home:const SokoHome(),
       debugShowCheckedModeBanner: false,
     );
   }

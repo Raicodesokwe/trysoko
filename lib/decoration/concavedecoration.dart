@@ -29,7 +29,12 @@ class _ConcaveDecorationPainter extends BoxPainter {
   List<Color> colors;
 
   _ConcaveDecorationPainter(this.shape, this.depression, this.colors) {
-    colors = [Colors.black87, Colors.white];
+    colors = [
+      Colors.black,
+      Colors.grey.shade800
+    //   Colors.black87,
+    //  Colors.white
+     ];
   }
 
   @override
